@@ -1,0 +1,16 @@
+{
+  "name": "nft-marketplace",
+  "version": "1.0.0",
+  "description": "NFT Marketplace on EVM",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "node": "npx hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.3",
+    "hardhat": "^2.14.0"
+  }
+}
